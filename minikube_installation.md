@@ -58,8 +58,11 @@ Now, logout (use `exit` command) and connect again.
 First, download the Minikube binary using `curl`:
 
 ```bash
-```
 
+curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
+
+sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
+```
 Make it executable and move it into your path:
 
 ```bash
